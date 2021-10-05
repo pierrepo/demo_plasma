@@ -1,4 +1,4 @@
-name: plasmabio-template-r
+name: demo_plasma
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest prioriy
@@ -7,10 +7,12 @@ channels:
   - bioconda
   - conda-forge
 dependencies:
-  - jupyterlab=3
+  - jupyterlab>=3
   - nbresuse
   - nodejs
   - r-irkernel
   - r-base>=4
   - r-tidyverse
+  - r-diagram
+  - bioconductor-biostrings
 
